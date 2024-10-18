@@ -51,6 +51,8 @@ volatile uint32_t RisingEdges = 0;
 // keep track of the current active LED
 volatile uint8_t curr_led = RED;
 
+// this is a comment
+
 int main(void){
 	DisableInterrupts();
   Switch_LED_Init();
